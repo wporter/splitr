@@ -134,5 +134,7 @@ add_dispersion_params <- function(model,
     model$binary_path <- binary_path
   }
   
+  print(model)
+  
   model
 }
